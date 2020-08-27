@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.570">
+  <properties />
+  
+  
+            <testcase name="applyingForJob" time="1.772" classname="JobBoard.Activity_5and6" />
+                <testcase name="navigateToJobs" time="0.798" classname="JobBoard.Activity_5and6" />
+      
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group2"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.045">
+  <properties />
+  
+  
+            <testcase name="logintoBackend" time="3.044" classname="JobBoard.Activity_8and9" />
+                <testcase name="createJobListBackend" time="13.001" classname="JobBoard.Activity_8and9" />
+      
+</testsuite>

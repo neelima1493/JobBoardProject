@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80494" started-at="2020-08-27T10:04:12 CDT" finished-at="2020-08-27T10:05:33 CDT">
+    <groups>
+      <group name="Backend">
+        <method signature="Activity_8and9.logintoBackend()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="logintoBackend" class="JobBoard.Activity_8and9"/>
+        <method signature="Activity_8and9.createJobListBackend()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="createJobListBackend" class="JobBoard.Activity_8and9"/>
+      </group> <!-- Backend -->
+      <group name="Frontend">
+        <method signature="Activity_5and6.navigateToJobs()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="navigateToJobs" class="JobBoard.Activity_5and6"/>
+        <method signature="Activity_5and6.applyingForJob()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="applyingForJob" class="JobBoard.Activity_5and6"/>
+        <method signature="Activity_7.postingJob()[pri:0, instance:JobBoard.Activity_7@612fc6eb]" name="postingJob" class="JobBoard.Activity_7"/>
+        <method signature="Activity_1.titleCheck()[pri:0, instance:JobBoard.Activity_1@ed9d034]" name="titleCheck" class="JobBoard.Activity_1"/>
+        <method signature="Activity_2.headingCheck()[pri:0, instance:JobBoard.Activity_2@6121c9d6]" name="headingCheck" class="JobBoard.Activity_2"/>
+        <method signature="Activity_3.imageURL()[pri:0, instance:JobBoard.Activity_3@87f383f]" name="imageURL" class="JobBoard.Activity_3"/>
+        <method signature="Activity_4.secondHeadingCheck()[pri:0, instance:JobBoard.Activity_4@4eb7f003]" name="secondHeadingCheck" class="JobBoard.Activity_4"/>
+      </group> <!-- Frontend -->
+    </groups>
+    <test name="Group1" duration-ms="56725" started-at="2020-08-27T10:04:12 CDT" finished-at="2020-08-27T10:05:09 CDT">
+      <class name="JobBoard.Activity_1">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_1@ed9d034]" name="launchJobPortal" is-config="true" duration-ms="7205" started-at="2020-08-27T10:04:12 CDT" finished-at="2020-08-27T10:04:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="titleCheck()[pri:0, instance:JobBoard.Activity_1@ed9d034]" name="titleCheck" duration-ms="24" started-at="2020-08-27T10:04:20 CDT" finished-at="2020-08-27T10:04:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_1@ed9d034]" name="closeBrowser" is-config="true" duration-ms="1014" started-at="2020-08-27T10:04:20 CDT" finished-at="2020-08-27T10:04:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_1 -->
+      <class name="JobBoard.Activity_2">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_2@6121c9d6]" name="launchJobPortal" is-config="true" duration-ms="5942" started-at="2020-08-27T10:04:21 CDT" finished-at="2020-08-27T10:04:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="headingCheck()[pri:0, instance:JobBoard.Activity_2@6121c9d6]" name="headingCheck" duration-ms="72" started-at="2020-08-27T10:04:27 CDT" finished-at="2020-08-27T10:04:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headingCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_2@6121c9d6]" name="closeBrowser" is-config="true" duration-ms="958" started-at="2020-08-27T10:04:27 CDT" finished-at="2020-08-27T10:04:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_2 -->
+      <class name="JobBoard.Activity_5and6">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="launchJobPortal" is-config="true" duration-ms="5917" started-at="2020-08-27T10:04:42 CDT" finished-at="2020-08-27T10:04:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="navigateToJobs()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="navigateToJobs" duration-ms="798" started-at="2020-08-27T10:04:48 CDT" finished-at="2020-08-27T10:04:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToJobs -->
+        <test-method status="PASS" signature="applyingForJob()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="applyingForJob" duration-ms="1772" started-at="2020-08-27T10:04:49 CDT" depends-on-methods="JobBoard.Activity_5and6.navigateToJobs" finished-at="2020-08-27T10:04:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyingForJob -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_5and6@eafc191]" name="closeBrowser" is-config="true" duration-ms="978" started-at="2020-08-27T10:04:51 CDT" finished-at="2020-08-27T10:04:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_5and6 -->
+      <class name="JobBoard.Activity_3">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_3@87f383f]" name="launchJobPortal" is-config="true" duration-ms="6166" started-at="2020-08-27T10:04:28 CDT" finished-at="2020-08-27T10:04:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="imageURL()[pri:0, instance:JobBoard.Activity_3@87f383f]" name="imageURL" duration-ms="45" started-at="2020-08-27T10:04:34 CDT" finished-at="2020-08-27T10:04:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageURL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_3@87f383f]" name="closeBrowser" is-config="true" duration-ms="986" started-at="2020-08-27T10:04:34 CDT" finished-at="2020-08-27T10:04:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_3 -->
+      <class name="JobBoard.Activity_4">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_4@4eb7f003]" name="launchJobPortal" is-config="true" duration-ms="6247" started-at="2020-08-27T10:04:35 CDT" finished-at="2020-08-27T10:04:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="secondHeadingCheck()[pri:0, instance:JobBoard.Activity_4@4eb7f003]" name="secondHeadingCheck" duration-ms="55" started-at="2020-08-27T10:04:41 CDT" finished-at="2020-08-27T10:04:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondHeadingCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_4@4eb7f003]" name="closeBrowser" is-config="true" duration-ms="1107" started-at="2020-08-27T10:04:41 CDT" finished-at="2020-08-27T10:04:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_4 -->
+      <class name="JobBoard.Activity_7">
+        <test-method status="PASS" signature="launchJobPortal()[pri:0, instance:JobBoard.Activity_7@612fc6eb]" name="launchJobPortal" is-config="true" duration-ms="6457" started-at="2020-08-27T10:04:52 CDT" finished-at="2020-08-27T10:04:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchJobPortal -->
+        <test-method status="PASS" signature="postingJob()[pri:0, instance:JobBoard.Activity_7@612fc6eb]" name="postingJob" duration-ms="9807" started-at="2020-08-27T10:04:58 CDT" finished-at="2020-08-27T10:05:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postingJob -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_7@612fc6eb]" name="closeBrowser" is-config="true" duration-ms="1097" started-at="2020-08-27T10:05:08 CDT" finished-at="2020-08-27T10:05:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_7 -->
+    </test> <!-- Group1 -->
+    <test name="Group2" duration-ms="23750" started-at="2020-08-27T10:05:09 CDT" finished-at="2020-08-27T10:05:33 CDT">
+      <class name="JobBoard.Activity_8and9">
+        <test-method status="PASS" signature="launchBackEnd()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="launchBackEnd" is-config="true" duration-ms="6528" started-at="2020-08-27T10:05:09 CDT" finished-at="2020-08-27T10:05:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBackEnd -->
+        <test-method status="PASS" signature="logintoBackend()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="logintoBackend" duration-ms="3044" started-at="2020-08-27T10:05:16 CDT" finished-at="2020-08-27T10:05:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoBackend -->
+        <test-method status="PASS" signature="createJobListBackend()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="createJobListBackend" duration-ms="13001" started-at="2020-08-27T10:05:19 CDT" depends-on-methods="JobBoard.Activity_8and9.logintoBackend" finished-at="2020-08-27T10:05:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJobListBackend -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:JobBoard.Activity_8and9@3891771e]" name="closeBrowser" is-config="true" duration-ms="1170" started-at="2020-08-27T10:05:32 CDT" finished-at="2020-08-27T10:05:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- JobBoard.Activity_8and9 -->
+    </test> <!-- Group2 -->
+  </suite> <!-- Suite -->
+</testng-results>

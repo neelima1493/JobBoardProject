@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+  <test name="Group1">
+  	<groups>
+	    <run>
+		<include name="Frontend" />
+		</run>
+	</groups>
+    <classes>
+      <class name="JobBoard.Activity_1"/>
+      <class name="JobBoard.Activity_2"/>
+      <class name="JobBoard.Activity_3"/>
+      <class name="JobBoard.Activity_4"/>
+      <class name="JobBoard.Activity_5and6"/>
+      <class name="JobBoard.Activity_7"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Group2">
+  	<groups>
+		<run>
+		<include name="Backend" />
+	    </run>
+	</groups>
+    <classes>
+      <class name="JobBoard.Activity_8and9"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
